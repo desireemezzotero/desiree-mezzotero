@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom"
 
 function HeaderNav() {
   return (
-    <nav className="bg-black">
+    <nav>
       <div className="max-w-screen-xl flex flex-wrap items-center mx-auto p-4 justify-between">
 
         <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="../public/logo.png" className="h-8 rounded-2xl" alt="Flowbite Logo" />
+          <img src="/logo.png" className="h-8 rounded-2xl" alt="Flowbite Logo" />
         </NavLink>
 
         <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">

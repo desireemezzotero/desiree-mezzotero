@@ -5,10 +5,10 @@ import FooterNav from "../components/FooterNav"
 function DefoultLayout() {
   return (
     <>
-      <header className="bg-black">
+      {/*  <header className="bg-black font-serif">
         <HeaderNav />
-      </header>
-      <main className="bg-black">
+      </header> */}
+      <main className="bg-black min-h-screen font-serif scroll-smooth">
         <Outlet />
       </main>
       <footer className="bg-black">

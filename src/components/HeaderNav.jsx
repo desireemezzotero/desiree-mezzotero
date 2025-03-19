@@ -19,11 +19,11 @@ function HeaderNav() {
         <div className="hidden w-full md:block md:w-auto text-white" id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 borderrounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
-              <a href="#" className="block py-2 px-3 rounded-sm md:p-0" aria-current="page">Home</a>
+              <NavLink to="/" className="block py-2 px-3 rounded-sm md:p-0" aria-current="page">Home</NavLink>
             </li>
 
             <li>
-              <a href="#" className="block py-2 px-3 rounded-sm md:p-0" aria-current="page">About</a>
+              <NavLink to="/about-me" className="block py-2 px-3 rounded-sm md:p-0" aria-current="page">About</NavLink>
             </li>
           </ul>
         </div>

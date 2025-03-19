@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container-animation {
+  overflow: hidden;
+}
+
+.stage_animation {
+  white-space: nowrap;
+  display: inline-block;
+  animation: stage_animation 15s linear infinite;
+}
+
+.h4-animation {
+  display: inline-block;
+}
+
+@keyframes stage_animation {
+  0% {
+    transform: translate3d(90%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}

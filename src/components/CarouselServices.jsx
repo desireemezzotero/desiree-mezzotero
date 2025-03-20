@@ -25,39 +25,39 @@ function CarouselServices() {
           slideShadows: true,
         }}
         autoplay={{
-          delay: 2000,
+          delay: 1000,
           disableOnInteraction: false,
         }}
         modules={[EffectCoverflow, Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide className='border border-neutral-400 justify-items-center justify-center p-3'>
-          <h2 className="mb-6 text-2xl font-semibold text-neutral-500 uppercase">Full Stack Development</h2>
+          <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Full Stack Development</h2>
           <p>Development of complete web solutions ranging from user interface (UI) design to backend logic management</p>
         </SwiperSlide>
 
         <SwiperSlide className='border-2 border-neutral-400 justify-items-center justify-center p-3'>
-          <h2 className="mb-6 text-2xl font-semibold text-neutral-500 uppercase">Front-End Development</h2>
+          <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Front-End Development</h2>
           <p>I create intuitive and engaging user experiences, with responsive designs that fit any device. I use modern technologies like React, Bootstrap, and Tailwind CSS to build elegant and functional interfaces.</p>
         </SwiperSlide>
 
         <SwiperSlide className='border-2 border-neutral-400 justify-items-center justify-center p-3'>
-          <h2 className="mb-6 text-2xl font-semibold text-neutral-500 uppercase">Back-end Development</h2>
+          <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Back-end Development</h2>
           <p>Build secure and scalable systems for the server side of your website. I use technologies like Node.js, Express.js and PHP to ensure optimal performance and efficient data management.</p>
         </SwiperSlide>
 
         <SwiperSlide className='border-2 border-neutral-400 justify-items-center justify-center p-3'>
-          <h2 className="mb-6 text-2xl font-semibold text-neutral-500 uppercase">Design with Figma</h2>
+          <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Design with Figma</h2>
           <p>Design interactive layouts and prototypes with Figma, turning ideas into visually appealing and easily navigable designs optimized for the user experience.</p>
         </SwiperSlide>
 
         <SwiperSlide className='border-2 border-neutral-400 justify-items-center justify-center p-3'>
-          <h2 className="mb-6 text-2xl font-semibold text-neutral-500 uppercase">Poster design</h2>
+          <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Poster Design</h2>
           <p>I offer graphic design services for the creation of posters and promotional materials, with a focus on visibility and visual impact for your brand or event.</p>
         </SwiperSlide>
 
         <SwiperSlide className='border-2 border-neutral-400 justify-items-center justify-center p-3'>
-          <h2 className="mb-6 text-2xl font-semibold text-neutral-500 uppercase">Web page management</h2>
+          <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Web Page Management</h2>
           <p>I manage and continuously update your website and social media, ensuring that they are always up to date, performing and relevant</p>
         </SwiperSlide>
       </Swiper>

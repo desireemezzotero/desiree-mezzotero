@@ -31,3 +31,9 @@
   width: 300px;
   height: 300px;
 }
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+}

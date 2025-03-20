@@ -2,7 +2,7 @@ function About() {
   return (
     <>
       <div className="max-w-screen-xl container mx-auto  p-6">
-        <h2 className="mb-6 text-2xl font-semibold text-neutral-500 uppercase">About Me</h2>
+        <h2 className="mb-6 text-6xl text-neutral-500 dancing-script">About me</h2>
         <p className="text-white">
           Hello! I’m Desiree, a great web development enthusiast. My journey into coding started in high school when I discovered the world of web development and was immediately passionate. After completing an intensive course, I have acquired a solid base of skills which I apply with enthusiasm to practical and dynamic projects.
 

@@ -11,7 +11,7 @@ function DefoultLayout() {
       <main className="bg-black min-h-screen font-serif scroll-smooth">
         <Outlet />
       </main>
-      <footer className="bg-black">
+      <footer className="bg-black pt-8">
         <FooterNav />
       </footer>
     </>

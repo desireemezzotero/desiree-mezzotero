@@ -11,7 +11,6 @@ function HomePage() {
       <About />
       <Services />
       <Education />
-      <Project />
     </>
   )
 }

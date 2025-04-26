@@ -1,9 +1,9 @@
 function Education() {
   return (
     <>
-      <div className="container border-t-2 border-neutral-900 mx-auto max-w-screen-xl w-52 mt-8">
+      <div className="container border-t-2 border-neutral-900 mx-auto max-w-screen-xl w-52 mt-10">
       </div>
-      <div className="max-w-screen-xl container mx-auto p-6">
+      <div className="max-w-screen-xl container mx-auto p-6 flex-wrap">
         <h2 className="mb-6 text-6xl text-neutral-500 dancing-script">Education</h2>
 
         <div className="text-white flex">
@@ -18,7 +18,7 @@ function Education() {
 
         </div>
 
-        <div className="text-white flex  mt-4">
+        <div className="text-white flex mt-4">
           <i class="fa-solid fa-graduation-cap text-white text-2xl mr-3"></i>
 
           <p className="font-bold mr-2">

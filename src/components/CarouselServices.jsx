@@ -31,7 +31,7 @@ function CarouselServices() {
         modules={[EffectCoverflow, Pagination, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide className='border border-neutral-400 justify-items-center justify-center p-3'>
+        <SwiperSlide className='border border-neutral-400 justify-items-center justify-center'>
           <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Full Stack Development</h2>
           <p>Development of complete web solutions ranging from user interface (UI) design to backend logic management</p>
         </SwiperSlide>

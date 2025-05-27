@@ -47,9 +47,16 @@ function CarouselServices() {
         </SwiperSlide>
 
         <SwiperSlide className='border-2 border-neutral-400 justify-items-center justify-center p-3'>
+          <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Canva</h2>
+          <p>This powerful tool lets you create everything from social media graphics to presentations and marketing materials</p>
+        </SwiperSlide>
+
+        {/* 
+        <SwiperSlide className='border-2 border-neutral-400 justify-items-center justify-center p-3'>
           <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Design with Figma</h2>
           <p>Design interactive layouts and prototypes with Figma, turning ideas into visually appealing and easily navigable designs optimized for the user experience.</p>
-        </SwiperSlide>
+        </SwiperSlide> */}
+
 
         {/* <SwiperSlide className='border-2 border-neutral-400 justify-items-center justify-center p-3'>
           <h2 className="mb-6 text-3xl text-neutral-500 dancing-script">Grapigh Designer</h2>

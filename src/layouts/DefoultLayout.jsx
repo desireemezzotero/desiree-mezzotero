@@ -8,7 +8,7 @@ function DefoultLayout() {
       {/*  <header className="bg-black font-serif">
         <HeaderNav />
       </header> */}
-      <main className="bg-[rgb(236,236,236)] min-h-screen font-serif scroll-smooth">
+      <main className="bg-[rgb(236,236,236)] min-h-screen font-serif scroll-smooth ">
         <Outlet />
       </main>
       <footer className="bg-[rgb(236,236,236)] pt-8">

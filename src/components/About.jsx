@@ -1,14 +1,17 @@
 function About() {
   return (
     <>
-      <div className="max-w-screen-xl container mx-auto  p-6">
-        <h2 className="mb-6 text-6xl text-neutral-500 dancing-script">About me</h2>
-        <p className="text-white">
-          Hello! I’m Desiree, a great web development enthusiast. My journey into coding started in high school when I discovered the world of web development and was immediately passionate. After completing an intensive course, I have acquired a solid base of skills which I apply with enthusiasm to practical and dynamic projects.
+      <div className="container border-t-2 border-neutral-900 mx-auto max-w-screen-xl w-52 mt-[50px]">
+      </div>
+      <div className="max-w-screen-xl container mx-auto p-6 mt-[20px]">
+        <h2 className="mb-6 text-5xl font-semibold text-black ">Su di me</h2>
+        <p className="text-black">
+          Ciao! Sono Desiree, un'appassionata di sviluppo web.
+          Il mio percorso nel mondo del codice è iniziato al liceo, quando ho scoperto lo sviluppo web e me ne sono subito innamorata. Dopo aver completato un corso intensivo, ho acquisito una solida base di competenze che applico con entusiasmo a progetti pratici e dinamici.
 
-          I focus on the user experience, aiming to create simple, intuitive and functional interfaces. Each project is an opportunity to combine passion and creativity, with the aim of creating effective and engaging solutions.
+          Mi concentro sull’esperienza utente, con l’obiettivo di creare interfacce semplici, intuitive e funzionali. Ogni progetto rappresenta per me un’occasione per unire passione e creatività, allo scopo di sviluppare soluzioni efficaci e coinvolgenti.
 
-          In the future, I want to continue growing as a developer, exploring new technologies and collaborating with other industry professionals to create more innovative web experiences.
+          In futuro desidero continuare a crescere come sviluppatrice, esplorando nuove tecnologie e collaborando con altri professionisti del settore per creare esperienze web sempre più innovative.
         </p>
 
       </div>

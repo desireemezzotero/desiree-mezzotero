@@ -7,7 +7,7 @@ function Education() {
         <h2 className="mb-6 text-6xl text-neutral-500 dancing-script">Education</h2>
 
         <div className="text-white flex">
-          <i class="fa-solid fa-code text-white text-2xl mr-3"></i>
+          <i className="fa-solid fa-code text-white text-2xl mr-3"></i>
 
           <p className="font-bold mr-2 ">
             Web Development with Boolean:
@@ -19,7 +19,7 @@ function Education() {
         </div>
 
         <div className="text-white flex mt-4">
-          <i class="fa-solid fa-graduation-cap text-white text-2xl mr-3"></i>
+          <i className="fa-solid fa-graduation-cap text-white text-2xl mr-3"></i>
 
           <p className="font-bold mr-2">
             Technical and Vocational Diploma:

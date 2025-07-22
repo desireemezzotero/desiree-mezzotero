@@ -20,14 +20,14 @@
     "url": "https://github.com/desireemezzotero/webapp-react",
     "technologies": "React, Vite, Tailwind Css, PostCss, Swiper"
   }, {
-    "id": 3,
+    "id": 4,
     "title": "WebApp",
     "description": "Mezz-Web è la mia prima web app completa, realizzata interamente con React e, per la prima volta, utilizzando il framework Tailwind CSS. Il progetto consentiva di visualizzare i film più ricercati nella homepage e, tramite una barra di ricerca, era possibile trovare altri film. Per ogni film, era possibile visualizzare i dettagli, come: genere, anno di produzione, descrizione e recensioni. Inoltre, era possibile aggiungere una recensione o un film.",
     "url": "https://github.com/desireemezzotero/webapp-react",
     "technologies": "React, Vite, Tailwind Css, PostCss, Swiper"
   }, 
   {
-  "id": 4,
+  "id": 5,
   "title": "Project PHP and Laravel",
   "description": "Questo progetto è stato sviluppato come parte del percorso finale del corso di Fullstack Web Developer con specializzazione in PHP e Laravel. L'obiettivo del progetto era creare un'applicazione completa che includesse: - Un backoffice in Laravel per gestire i dati tramite operazioni CRUD (Create, Read, Update, Delete). - Un frontend in React che permettesse ai visitatori non autenticati di visualizzare e interagire con i dati.",
   "url": "https://github.com/desireemezzotero/webapp-react",

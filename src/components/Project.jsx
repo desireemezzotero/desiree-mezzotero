@@ -9,13 +9,12 @@ function Project() {
   const HandlerOpen = (id) => {
     setOpen(true)
     setId(id)
-
-    console.log(id)
   }
 
   const HandlerClose = () => {
     setOpen(false)
   }
+
 
   const selectedProject = json.find(project => project.id === id)
 
@@ -43,24 +42,42 @@ function Project() {
         </div>
 
         {/* popup card */}
-
         {open && selectedProject &&
+
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
             <div className="bg-white rounded-lg p-8 w-full max-w-md relative shadow-lg">
+
               <button onClick={HandlerClose}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                 </svg>
               </button>
-              <h2 className="text-2xl font-bold mb-4">{selectedProject.title}</h2>
-              <p className="text-gray-700">{selectedProject.description}</p>
-              <a className="text-gray-700">{selectedProject.url}</a>
-              <p className="text-gray-700">{selectedProject.technologies}</p>
+
+              <div className="px-6 py-4">
+
+                <img className="w-full" src={selectedProject.image} alt="Sunset in the mountains"></img>
+                <div className="font-bold text-xl mb-2">{selectedProject.title}</div>
+                <p className="text-gray-700 text-base">
+                  {selectedProject.description}
+                </p>
+
+                <p className="text-gray-700 text-base mt-3">
+                  <span className="font-bold">Tecnologie utilizzate: </span>{selectedProject.technologies}
+                </p>
+
+                <div className="text-center mt-5">
+                  <button type="button" class="text-gray-700 hover:text-gray-700 border border-gray-800 hover:bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                    <a className="text-base font-bold" href={selectedProject.url} target="_blank">
+                      Clicca qui per GitHub
+                    </a>
+                  </button>
+                </div>
+
+              </div>
             </div>
           </div>
-
         }
-      </div >
+      </div>
     </>
   )
 }
